@@ -1,4 +1,4 @@
-<h1>1Building Blog websites using Django by following @Maximilian Schwarzmüller from udemy</h1>
+<h1>Building Blog websites using Django by following @Maximilian Schwarzmüller from udemy</h1>
 
 Just Completed Frontend templates rendering in existing Django Project
 <br>
