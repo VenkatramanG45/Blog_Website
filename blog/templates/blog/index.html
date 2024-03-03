@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    My Blog
+{% endblock %}
+
+{% block css_files %}
+    <link rel="stylesheet" href="{% static 'blog/post.css' %}">
+    <link rel="stylesheet" href="{% static 'blog/index.css' %}">    
+{% endblock %}
+
+{% block content %}
+    <section id="welcome">
+        <header>
+            <img src="{% static 'blog/images/Venky.png' %}" alt="Venkatraman - The Author of this Blog">
+            <h2>Venkatraman's Blog</h2>
+        </header>
+        <p>Hi I am Venky and I like to Blog about My replicated Projects through Youtube and Udemy!</p>
+    </section>
+    
+    <section id="latest-posts">
+        <h2>My Latest Thoughts</h2>
+        <ul>
+            {% for post  in posts %}
+                {% include "blog/includes/post.html" %}
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>What I do</h2>
+        <p>
+            I love making websites using Django 
+            and Exploring about present AI Technologies in General!
+        </p>
+        <p>
+            My goal is to keep on growing as a 
+            developer in 2 years of Time.
+        </p>
+    </section>
+{% endblock %}
