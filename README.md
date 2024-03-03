@@ -1,5 +1,5 @@
 <h1>Building Blog websites using Django by following @Maximilian Schwarzmüller from udemy</h1>
-
+<br>
 Just Completed Frontend templates rendering in existing Django Project
 <br>
 Learnt Concepts such as 
@@ -11,15 +11,13 @@ Django Filters
 Template inheritance
 <br>
 Used Tags:
-<li>
-  for 
-  if, else
-  extends
-  load static
-  block content
-  endblock
-</li>
-  
+<li>for </li>
+<li>  if, else </li>
+<li> extends  </li>
+<li>load static </li>
+<li> block content </li>
+<li> endblock </li>
+<br> 
   --- Creating Includes for same block of HTML Snippets (Specially for Headers)
   used Time filters
   <br>
